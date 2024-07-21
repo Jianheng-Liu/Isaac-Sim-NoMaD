@@ -1,0 +1,1 @@
+Save the Isaac Sim assets here in this file, including all the env and robot assets
