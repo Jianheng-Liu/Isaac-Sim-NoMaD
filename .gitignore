@@ -153,6 +153,8 @@ devel/
 build/
 
 # Isaac Sim Assets
-isaac_sim_turtlebot/assets/**
-!isaac_sim_turtlebot/assets/
-!isaac_sim_turtlebot/assets/README.md
+isaac_sim_ros/assets/**
+!isaac_sim_ros/assets/
+!isaac_sim_ros/assets/README.md
+
+*.bag
