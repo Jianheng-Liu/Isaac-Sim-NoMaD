@@ -46,7 +46,7 @@ tmux send-keys "python pd_controller.py" Enter
 # Run the navigate.py script with command line args in the fifth pane
 tmux select-pane -t 4
 tmux send-keys "conda activate vint_deployment" Enter
-tmux send-keys "sleep 2; python navigate.py --model vint --dir warehouse_turtlebot --goal-node 159" Enter
+tmux send-keys "sleep 2; python navigate.py --model nomad --dir warehouse_turtlebot" Enter
 
 # Run the pd_controller.py script in the sixth pane
 tmux select-pane -t 5
